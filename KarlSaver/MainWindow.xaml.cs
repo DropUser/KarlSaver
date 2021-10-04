@@ -326,7 +326,7 @@ namespace KarlSaver
         void PlaySound()
         {
             MediaPlayer mediaplayer = new MediaPlayer();
-            mediaplayer.Open(new Uri(@"C:\Users\Dylan\source\repos\KarlSaver\KarlSaver\bin\Debug\rock_and_stone.wav"));
+            mediaplayer.Open(new Uri(@"rock_and_stone.wav"));
             mediaplayer.Volume = 0.2;
             mediaplayer.Play();
         }
